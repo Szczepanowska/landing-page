@@ -1,0 +1,75 @@
+/* Write some CSS below */
+body {
+  margin: 0;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  color: white;
+}
+
+.banner h1 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 64px;
+  margin: 64px 36px;
+
+}
+
+.banner a {
+  text-decoration: none;
+  font-size: 24px;
+  background-color: #DD5526;
+  margin: 64px;
+  padding: 16px 16px;
+  color: white;
+}
+
+.banner a:hover {
+  background-color: #bb461f;
+}
+
+.content {
+  text-align: center;
+  margin: 36px 360px;
+  white-space: pre-wrap;
+}
+
+.content h2 {
+  font-size: 32px;
+  margin: 0;
+}
+
+.content p {
+  font-family: 'NunitoSans', sans-serif;
+}
+
+.footer {
+  background: #DD5526;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
